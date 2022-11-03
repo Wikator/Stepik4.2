@@ -1,5 +1,6 @@
 from copy import deepcopy
 from random import randint
+import unittest
 
 def SolveSudoku(sudoku):
 
@@ -148,3 +149,5 @@ def SolveSudoku(sudoku):
                 numberWasAdded = True
                 
     return 'Cannot solve'
+
+unittest.main()
